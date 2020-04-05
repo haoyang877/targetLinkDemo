@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<n1:CodeGenReport MajorVersion="1" MinorVersion="1" xmlns:n1="http://www.dspace.de/TargetLink" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dspace.de/TargetLinkC:\Program Files\dSPACE TargetLink 4.2\Matlab\Tl\XML\CodeGenReport\Schemas\CGReport.xsd" md5="0913ce0448bc9316d19bec1ee6b4785f">
+    <Base CodeGenerationUnit="VC1\pidcontroller" Timestamp="2020-04-04T23:39:12">
+        <CgOptions md5="11f0bc5b52d2d15c8d72dd4774a14a27">
+            <CgOption Name="ARDataPrototypeActualParamName" Value="$(DataPrototype)$R" Type="STRING" />
+            <CgOption Name="AlarmActivationKind" Value="1" Type="INT" />
+            <CgOption Name="AlarmInitWithRestart" Value="1" Type="BOOL" />
+            <CgOption Name="AlarmStartOffset" Value="0" Type="DOUBLE" />
+            <CgOption Name="Allow64BitMultiplicationsForArbitraryScaled16BitOperands" Value="1" Type="BOOL" />
+            <CgOption Name="AllowDuplicationOfImplicitAUTOSARDataAccess" Value="1" Type="BOOL" />
+            <CgOption Name="AllowInterleavingCodeForAllSubsystems" Value="1" Type="BOOL" />
+            <CgOption Name="AllowMovingOfCustomCodeForBlockDiagramBasedSwitchOptimization" Value="1" Type="BOOL" />
+            <CgOption Name="AllowStructAssignments" Value="1" Type="BOOL" />
+            <CgOption Name="AssignmentOfConditions" Value="2" Type="INT" />
+            <CgOption Name="AssumeFunctionCallSemanticsForRteAPIArguments" Value="1" Type="BOOL" />
+            <CgOption Name="AssumeOperationCallsHaveNoUnknownDataFlow" Value="1" Type="BOOL" />
+            <CgOption Name="AutoInitAlarm" Value="1" Type="BOOL" />
+            <CgOption Name="AutoPriority" Value="0" Type="BOOL" />
+            <CgOption Name="AvoidNestedVariablePropagationPointerAccess" Value="0" Type="BOOL" />
+            <CgOption Name="CodeCoverageLevel" Value="0" Type="INT" />
+            <CgOption Name="CodeGenerationMode" Value="0" Type="INT" />
+            <CgOption Name="CodeGenerationTargetSettings" Value="Generic ANSI-C" Type="STRING" />
+            <CgOption Name="ConfigXML" Value="C:\Program Files\dSPACE TargetLink 4.2\Matlab\Tl\Config\codegen\cconfig.xml" Type="STRING" />
+            <CgOption Name="ConformingFreestandingImplementation" Value="0" Type="BOOL" />
+            <CgOption Name="ConsiderAllVariablesForBlockDiagramBasedSwitchOptimization" Value="0" Type="BOOL" />
+            <CgOption Name="ConsiderMergeableForBlockDiagramBasedSwitchOptimization" Value="1" Type="BOOL" />
+            <CgOption Name="CreateRestartFunctions" Value="1" Type="BOOL" />
+            <CgOption Name="CurrentRtos" Value="generic RTOS" Type="STRING" />
+            <CgOption Name="DecimalConstants" Value="1" Type="BOOL" />
+            <CgOption Name="DeriveDefaultSymbolClasses" Value="0" Type="BOOL" />
+            <CgOption Name="DisableFunctionsAsAnalysisBoundaries" Value="1" Type="BOOL" />
+            <CgOption Name="DoNotMoveIfLogged" Value="0" Type="BOOL" />
+            <CgOption Name="DoNotUseAssignArithmeticForAccumulation" Value="0" Type="BOOL" />
+            <CgOption Name="EmitMissingRequirementsWarningsAsNotes" Value="0" Type="BOOL" />
+            <CgOption Name="EnableAssembler" Value="0" Type="BOOL" />
+            <CgOption Name="EnableBlockDiagramBasedSwitchOptimization" Value="1" Type="BOOL" />
+            <CgOption Name="EnableDataPages" Value="0" Type="BOOL" />
+            <CgOption Name="EnableExternCStateflowSymbols" Value="0" Type="BOOL" />
+            <CgOption Name="EnableExternFunctionMerge" Value="0" Type="BOOL" />
+            <CgOption Name="EnableReportGeneration" Value="1" Type="BOOL" />
+            <CgOption Name="EnableSections" Value="1" Type="BOOL" />
+            <CgOption Name="ExploitComputeThroughOverflow" Value="2" Type="INT" />
+            <CgOption Name="ExploitRangesIndependentOfErasable" Value="0" Type="BOOL" />
+            <CgOption Name="ExtendedBlockComments" Value="0" Type="BOOL" />
+            <CgOption Name="ExtendedLifeTimeOptimization" Value="1" Type="BOOL" />
+            <CgOption Name="ExtendedVariableSharing" Value="0" Type="BOOL" />
+            <CgOption Name="ForceBooleanOperandsInBooleanOperations" Value="1" Type="BOOL" />
+            <CgOption Name="ForceCodeGenOfMisspecifiedVariableWidthsBlocks" Value="0" Type="BOOL" />
+            <CgOption Name="Generate64BitFunctions" Value="1" Type="BOOL" />
+            <CgOption Name="GenerateEmptyConditionalBranches" Value="0" Type="BOOL" />
+            <CgOption Name="GenerateFrameVariablesForAccessFunctions" Value="0" Type="BOOL" />
+            <CgOption Name="GenerateIWriteForNonScalarIrvs" Value="0" Type="BOOL" />
+            <CgOption Name="GenerateTLVersionMacro" Value="0" Type="BOOL" />
+            <CgOption Name="GlobalOptimizationIterationThreshold" Value="30" Type="INT" />
+            <CgOption Name="HandleUnscaledStateflowExpressionsWithTlType" Value="1" Type="BOOL" />
+            <CgOption Name="IgnoreAccessFunctionsInOwnModule" Value="0" Type="BOOL" />
+            <CgOption Name="ImplementFloatEqualityViaMacros" Value="0" Type="BOOL" />
+            <CgOption Name="InliningThreshold" Value="5" Type="INT" />
+            <CgOption Name="InsertComputeThroughOverflowComments" Value="0" Type="BOOL" />
+            <CgOption Name="KeepSaturationStatements" Value="0" Type="BOOL" />
+            <CgOption Name="LimitVariableNameLength" Value="1" Type="BOOL" />
+            <CgOption Name="LineBreakLimit" Value="100" Type="INT" />
+            <CgOption Name="Logging" Value="1" Type="INT" />
+            <CgOption Name="LoopUnrollThreshold" Value="5" Type="INT" />
+            <CgOption Name="NumberOfDataPages" Value="2" Type="INT" />
+            <CgOption Name="OmitZeroInitializationsInRestartFunction" Value="0" Type="BOOL" />
+            <CgOption Name="Optimization" Value="1" Type="BOOL" />
+            <CgOption Name="OptimizationIterationThreshold" Value="50" Type="INT" />
+            <CgOption Name="OptimizedBoolType" Value="1" Type="BOOL" />
+            <CgOption Name="RebuildStateflow" Value="0" Type="BOOL" />
+            <CgOption Name="ReduceScopeOfVariablesOnlyDownToFunctionLevel" Value="0" Type="BOOL" />
+            <CgOption Name="ReduceSingletonDimensions" Value="1" Type="BOOL" />
+            <CgOption Name="ReplaceUnrolledVectorsAndMatricesByScalars" Value="0" Type="BOOL" />
+            <CgOption Name="ReportFailedFunctionReuseVariablePropagation" Value="0" Type="BOOL" />
+            <CgOption Name="ReportMismatchingPortBlockSignalSpecifications" Value="0" Type="BOOL" />
+            <CgOption Name="ReportVariablesExcludedFromPIM" Value="0" Type="BOOL" />
+            <CgOption Name="RequirementInfoAsCodeComment" Value="0" Type="BOOL" />
+            <CgOption Name="ReuseStructHandling" Value="0" Type="INT" />
+            <CgOption Name="RootStylesheet" Value="C:\Program Files\dSPACE TargetLink 4.2\Matlab\Tl\XML\CodeGen\Stylesheets\TL_CSourceCodeSS.xsl" Type="STRING" />
+            <CgOption Name="SameIndirectReusePointerForSameDestination" Value="0" Type="BOOL" />
+            <CgOption Name="ScreenInfo" Value="1" Type="BOOL" />
+            <CgOption Name="SfStateEncoding" Value="0" Type="INT" />
+            <CgOption Name="ShareFunctionsBetweenTLSubs" Value="0" Type="BOOL" />
+            <CgOption Name="ShiftMode" Value="0" Type="INT" />
+            <CgOption Name="SideEffectFreeAnalysisThreshold" Value="1000" Type="INT" />
+            <CgOption Name="StateActivityEncodingLimit" Value="5" Type="INT" />
+            <CgOption Name="StateflowUseBitfields" Value="1" Type="BOOL" />
+            <CgOption Name="StrictRunnableInterfaceChecks" Value="1" Type="BOOL" />
+            <CgOption Name="StrictTypedefPlacement" Value="1" Type="BOOL" />
+            <CgOption Name="StructCompClassUsesLinkerSection" Value="0" Type="BOOL" />
+            <CgOption Name="SupportSinglePrecisionLibraries" Value="0" Type="INT" />
+            <CgOption Name="SuppressNoRunnableRestartCodeError" Value="0" Type="BOOL" />
+            <CgOption Name="TreatAllForcedAtomicSubsystemsAsWeakAtomic" Value="1" Type="BOOL" />
+            <CgOption Name="UseGlobalBitfields" Value="0" Type="BOOL" />
+            <CgOption Name="UseRootFileNameAsUserDefinedTypesHeaderBasename" Value="0" Type="BOOL" />
+            <CgOption Name="UseSfDataAsStateFlags" Value="0" Type="BOOL" />
+            <CgOption Name="UtilizeExplicitDependenciesForScalingInvariantSystems" Value="0" Type="BOOL" />
+            <CgOption Name="UtilizeValueEqualitySignalLineSplit" Value="1" Type="BOOL" />
+            <CgOption Name="UtilizeValueEqualityStructFunctionArguments" Value="1" Type="BOOL" />
+            <CgOption Name="UtilizeZeroInitializationOfStaticStorageDurationVariables" Value="1" Type="BOOL" />
+        </CgOptions>
+        <Messages md5="eb068ce4e3f1d11d6b3da1d2bff32679">
+            <Message Number="10003" Severity="Note" Title="General Messages" Text="Target name : Generic" />
+            <Message Number="10000" Severity="Note" Title="General Messages" Text="TargetLink Production Code Generator Version 4.2" />
+            <Message Number="10004" Severity="Note" Title="General Messages" Text="2016-10-17 Build Id 4.2.0.26" />
+            <Message Number="10001" Severity="Note" Title="General Messages" Text="Copyright dSPACE GmbH 1999-2016. All Rights Reserved." />
+            <Message Number="10608" Severity="Note" Title="Data Dictionary Interface Messages" Text="Using base types from directory: C:\Program Files\dSPACE TargetLink 4.2\Matlab\Tl\TargetConfiguration\I86\MSVC" />
+            <Message Number="10033" Severity="Note" Title="General Messages" Text="Using the following character set for generated code files: UTF-8." />
+            <Message Number="10560" Severity="Note" Title="Installation Messages" Text="Simulink Verification and Validation software detected. You can get requirement information on the generated code by activating Code Generator option RequirementInfoAsCodeComment. Refer to Basics on Requirement Information in the Generated Code in the TargetLink Interoperation and Exchange Guide." />
+        </Messages>
+    </Base>
+    <Optional />
+</n1:CodeGenReport>

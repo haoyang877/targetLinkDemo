@@ -1,0 +1,21 @@
+/*
+** Cascading style sheet file for TL CodeViewFiles
+** Default settings
+*/
+font.keyword  {font-weight: bold;   color: black}
+font.comment  {font-weight: normal; color: green}
+font.preproc  {font-weight: normal; color: red}
+font.const    {font-weight: normal; color: maroon}
+font.string   {font-weight: normal; color: gray}
+font.spectype {font-weight: normal; color: black}
+font.log      {font-weight: bold;   color: black}
+font.ccov     {font-weight: bold;   color: black}
+font.dsfxp    {font-weight: bold;   color: black}
+font.lutw     {font-weight: bold;   color: orange}
+font.lute     {font-weight: bold;   color: red}
+a.class       {font-weight: normal; color: black}
+a.macro       {font-weight: bold;   color: black}
+a.var         {font-weight: normal; color: blue}
+a.fcn         {font-weight: bold;   color: black}
+a.type        {font-weight: normal; color: black}
+a:hover       {color: red}
